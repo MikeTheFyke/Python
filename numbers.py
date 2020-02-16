@@ -30,3 +30,18 @@ print (number // number2)
 print ("Exponentiation")
 print (number ** number2)
 # Exponentiation (number to the power of number2)
+
+print(number==number2)
+# is equal to
+
+print(number!=number2)
+# is not equal to
+
+print(number > number2)
+# is greater than
+
+print(number >= number2)
+
+print(number < number2)
+
+print(number <= number2)
