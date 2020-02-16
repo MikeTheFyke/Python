@@ -41,7 +41,10 @@ print(number > number2)
 # is greater than
 
 print(number >= number2)
+# is greater or equal to
 
 print(number < number2)
+# is less than
 
 print(number <= number2)
+# is less than or equal to
