@@ -8,13 +8,13 @@ print (int(number))
 number2 = 14
 
 print (number + number2)
-
+# Addition
 print (number - number2)
-
+# Subtraction
 print (number * number2)
-
+# Multiplication
 print (number / number2)
-
+# Division
 print (number // number2)
 # Integer division - Round down so there are no decimal places
 print (number ** number2)
