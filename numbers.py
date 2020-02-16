@@ -7,15 +7,26 @@ print (int(number))
 
 number2 = 14
 
+print ("Addition")
 print (number + number2)
 # Addition
+
+print ("Subtraction")
 print (number - number2)
 # Subtraction
+
+print ("Multiplication")
 print (number * number2)
 # Multiplication
+
+print ("Division")
 print (number / number2)
 # Division
+
+print ("Integer Division")
 print (number // number2)
 # Integer division - Round down so there are no decimal places
+
+print ("Exponentiation")
 print (number ** number2)
 # Exponentiation (number to the power of number2)
