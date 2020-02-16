@@ -48,8 +48,10 @@ print ("Greater than or equal to?")
 print(number >= number2)
 # is greater or equal to
 
+print ("Less than?")
 print(number < number2)
 # is less than
 
+print ("Less than or equal to?")
 print(number <= number2)
 # is less than or equal to
