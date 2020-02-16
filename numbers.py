@@ -31,15 +31,20 @@ print ("Exponentiation")
 print (number ** number2)
 # Exponentiation (number to the power of number2)
 
+print ("______Boolean Equations______")
+print ("Equal to?")
 print(number==number2)
 # is equal to
 
+print ("Not equal to?")
 print(number!=number2)
 # is not equal to
 
+print ("Greater than?")
 print(number > number2)
 # is greater than
 
+print ("Greater than or equal to?")
 print(number >= number2)
 # is greater or equal to
 
