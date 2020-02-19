@@ -1,5 +1,7 @@
-TPB01 = "Ricky"
-TPB02 = "Julian"
-TPB03 = "Bubbles"
-TPB04 = "Mr.Lahey"
-TPB05 = "Randy"
+TPB01 = [
+    "Ricky",
+    "Julian",
+    "Bubbles",
+    "Mr.Lahey",
+    "Randy",
+]
