@@ -29,3 +29,7 @@ print("\n")
 people.append("Crazy Dan")
 print(people[-1])
 print("Your New List\n" + str(people)+"\n")
+
+# Insert method - Keeping the above Append in last place just for fun.
+people.insert(-1,"Scary Terry")
+print("Your New New List\n" + str(people)+"\n")
