@@ -37,3 +37,7 @@ print("Your New Screaming Evils \n" + str(screamingEvils) + "\n")
 # Replace Average Player To AVERAGE PLAYER
 screamingEvils[middlePlayer] = "AVERAGE PLAYER"
 print("Your New New Screaming Evils \n" + str(screamingEvils) + "\n")
+
+# Consolidate Teams
+ScreamingDerangers = screamingEvils + Derangers
+print("Your New Screaming Derangers \n" + str(ScreamingDerangers) + "\n")
