@@ -10,6 +10,7 @@ tip = tip * .010
 tax = subtotal * .13
 total = subtotal + tax
 tipTotal =  total * tip
+# '${:0,.2f}'.format(_____) converts and displays in a currency friendly format
 print("Your Tip total equals        = " + '${:0,.2f}'.format(tipTotal))
 print("Your Total tax equals        = " +  '${:0,.2f}'.format(tax))
 print("")
