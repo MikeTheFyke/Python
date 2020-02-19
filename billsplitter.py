@@ -2,6 +2,7 @@ print("")
 print("_____Welcome To Python Bill Plitter_____")
 print("____________& Tip Calculator____________")
 print("")
+# input function displays message and receives an input after the enter button is entered
 subtotal = input("Please enter your subtotal : $")
 tip = input("Please enter a tip         : %")
 numPeople = input("Please enter # of people   :  ")
