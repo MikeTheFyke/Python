@@ -37,3 +37,17 @@ print("Your New New List\n" + str(people)+"\n")
 # Change a value in a list
 people[-1] = "Squirelly Dan"
 print("Your New New New List\n" + str(people)+"\n")
+
+# Delete an Item
+del people[4]
+print("What happened to Randy?\n" + str(people)+"\n")
+
+# Concatenate Two List Together
+peopleNew = [
+    "Barrada",
+    "Nikto",
+    "Kalaatu"
+]
+
+newList = people + peopleNew
+print("Two Lists Become One  \n" + str(newList)+"\n")
