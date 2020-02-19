@@ -22,3 +22,5 @@ print("\n")
 # Third Access Method
 print("The Top 3 are " + str(people[0:3]))
 print("\n")
+print("The Bottom 2 are " + str(people[-2:]))
+print("\n")
