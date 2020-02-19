@@ -33,3 +33,7 @@ print("Your New List\n" + str(people)+"\n")
 # Insert method - Keeping the above Append in last place just for fun.
 people.insert(-1,"Scary Terry")
 print("Your New New List\n" + str(people)+"\n")
+
+# Change a value in a list
+people[-1] = "Squirelly Dan"
+print("Your New New New List\n" + str(people)+"\n")
