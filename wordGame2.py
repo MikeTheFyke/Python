@@ -1,2 +1,27 @@
-proseString = "\nHi mom,\n\nJust writing to tell you that I've quit my job as\na OCCUPATION and I'm moving to COUNTRY.\nThe truth is, I've always been passionate\nabout PLURAL_NOUN, and COUNTRY is the\nbest place in the world to build a career\naround them. I'll need to start a small-- At first,\nall I'll be allowed to do is to VERB near them,\nbut when people see how ADJECTIVE I can be,\nI'm sure to rise to the top.\n\nDont't worry about me, and tell dad to take\ngood care of my PERSONAL_ITEM. I'll be sure to call every Holiday.\n\nRegards\nNAME\n"
+proseString = """
+Hi mom,
+
+Just writing to tell you that I've quit my job as
+a OCCUPATION and I'm moving to COUNTRY.
+The truth is, I've always been passionate
+about PLURAL_NOUN, and COUNTRY is the
+best place in the world to build a career
+around them. I'll need to start a small-- At first,
+all I'll be allowed to do is to VERB near them,
+but when people see how ADJECTIVE I can be,
+I'm sure to rise to the top.
+
+Dont't worry about me, and tell dad to take
+good care of my PERSONAL_ITEM. 
+I'll be sure to call every Holiday.
+
+Regards,
+
+NAME
+
+"""
+
+ocInput = raw_input(" Please Enter An Occupation   : ")
+
+proseString.replace("OCCUPATION",ocInput)
 print(proseString)
