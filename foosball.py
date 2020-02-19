@@ -41,3 +41,8 @@ print("Your New New Screaming Evils \n" + str(screamingEvils) + "\n")
 # Consolidate Teams
 ScreamingDerangers = screamingEvils + Derangers
 print("Your New Screaming Derangers \n" + str(ScreamingDerangers) + "\n")
+
+# del and re adjust Average Player
+del ScreamingDerangers[middlePlayer]
+ScreamingDerangers.insert( (len(ScreamingDerangers)/2), "New Average Johnson")
+print("Your New Screaming Derangers - New Middle Player \n" + str(ScreamingDerangers) + "\n")
