@@ -21,19 +21,24 @@ NAME
 
 """
 
+proseString2 = proseString
+
 ocInput = raw_input(" Please Enter An Occupation   : ")
+proseString2 = proseString2.replace("OCCUPATION", ocInput)
+
 countryInput = raw_input(" Please Enter A Country   : ")
+proseString2 = proseString2.replace("COUNTRY", countryInput)
+
 pluralNounInput = raw_input(" Please Enter A Plural Noun   : ")
+proseString2 = proseString2.replace("PLURAL_NOUN", pluralNounInput)
+
 verbInput = raw_input(" Please Enter An Action   : ")
+proseString2 = proseString2.replace("VERB", verbInput)
+
 adjectiveInput = raw_input(" Please Enter An Adjective   : ")
+proseString2 = proseString2.replace("ADJECTIVE", adjectiveInput)
+
 personalItem = raw_input(" Please Enter A Personal Item    : ")
-
-
-proseString2 = proseString.replace("OCCUPATION",ocInput)
-proseString2 = proseString.replace("COUNTRY",countryInput)
-proseString2 = proseString.replace("PLURAL_NOUN",pluralNounInput)
-proseString2 = proseString.replace("VERB",verbInput)
-proseString2 = proseString.replace("ADJECTIVE",adjectiveInput)
-proseString2 = proseString.replace("PERSONAL_ITEM",personalItem)
+proseString2 = proseString2.replace("PERSONAL_ITEM", personalItem)
 
 print(proseString2)
