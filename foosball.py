@@ -33,3 +33,7 @@ print("2 Below" + str(screamingEvils[middlePlayer: middlePlayer + 2]))
 # Inserting An Average Player To Represent the middle player on the team
 screamingEvils.insert(middlePlayer,"Average Johnson")
 print("Your New Screaming Evils \n" + str(screamingEvils) + "\n")
+
+# Replace Average Player To AVERAGE PLAYER
+screamingEvils[middlePlayer] = "AVERAGE PLAYER"
+print("Your New New Screaming Evils \n" + str(screamingEvils) + "\n")
