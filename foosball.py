@@ -19,3 +19,7 @@ Derangers = [
     "Grim McSlam",
     "Liquid Lazer"
 ]
+
+# Find the middle player
+middlePlayer = ((len(screamingEvils)) / 2)
+print(screamingEvils[middlePlayer - 1])
