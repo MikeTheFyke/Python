@@ -59,6 +59,7 @@ bacteria = "&"
 generations = 10
 
 for generation in range(0, generations):
+    # bacteria = bacteria + bacteria - replaced to show strings can be mulitplied
     bacteria = bacteria * 2
     print(bacteria)
     time.sleep(0.5)
