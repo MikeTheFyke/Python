@@ -15,6 +15,17 @@ for name in rockosML:
     print name
 print("---This is the end of the list---\n")
 
+# Mass Uppercasing
+print("\nThe same list but all in CAPS\n")
+upperNames = []
+for name in rockosML:
+    name = name.upper()
+    upperNames.append(name)
+
+print(upperNames)
+print("\n ---The End Is Here--- \n")
+
+
 # Directions Loop
 
 print("\nLet's Get You Moving\n")
