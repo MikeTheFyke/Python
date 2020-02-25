@@ -45,11 +45,15 @@ for index in range(0, len(agents)):
     print(agents[index])
     print(roles[index])
 
-# DISPLAY List Using the enumerate method 
+# DISPLAY List Using the enumerate method 01
 print("\n----------EnumerateMethod--------------\n")
 for index, agent in enumerate(agents):
     print(agents)
     print(roles[index])
+
+# DISPLAY List Using the enumerate method 02
+print("\n----------EnumerateMethod 02-----------\n")
+print(list(enumerate(agents)))
 
 # Display Using Refacturing
 
@@ -65,8 +69,7 @@ agentsRoles = [
     ["Barry Dillon", "Target Practice - World Record Ricochette"]
 ]
 
-
-print ("\nRefactured List AGENTS/ROLES\n")
+print ("\n---Refactured List AGENTS/ROLES---\n")
 for agentRole in agentsRoles:
     agent01 = agentRole[0]
     role01 = agentRole[1]
