@@ -1,13 +1,13 @@
 agents = [
-    "0 - Operator",
-    "1 - Malory Archer",
-    "2 - Sterling Archer",
-    "3 - Lawna Kane",
-    "4 - Cyril Figgis",
-    "5 - Ray Gillette",
-    "6 - Pam Poovey",
-    "7 - Dr. Krieger",
-    "8 - Barry Dillon"
+    "Operator",
+    "Malory Archer",
+    "Sterling Archer",
+    "Lawna Kane",
+    "Cyril Figgis",
+    "Ray Gillette",
+    "Pam Poovey",
+    "Dr. Krieger",
+    "Barry Dillon"
 ]
 
 roles = [
@@ -27,8 +27,7 @@ print ("\n--- Welcome To The Figgis Agency ---" + "\n---    List Of Active Agent
 ctr = 0
 
 for name in agents:
-    print (ctr)
-    print name
+    print (ctr), (name)
     ctr = ctr + 1
 
 extensionNumber = input("\n Please Enter An Agents extension Number   : ")
