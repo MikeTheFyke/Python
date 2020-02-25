@@ -9,4 +9,6 @@ rockosML = [
     "Paula Hutchison"
 ]
 
-for item in collection
+for name in rockosML:
+    print name
+print("This extra line is for the loop!")
