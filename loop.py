@@ -9,6 +9,7 @@ rockosML = [
     "Paula Hutchison"
 ]
 
+# Indenting in Python can define end points for for loops.
 for name in rockosML:
     print name
 print("This extra line is for the loop!")
