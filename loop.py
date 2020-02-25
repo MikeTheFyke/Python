@@ -15,7 +15,7 @@ for name in rockosML:
     print name
 print("---This is the end of the list---\n")
 
-# Mass Uppercasing
+# Mass Uppercasing by using The Append method to save changed data into new Array
 print("\nThe same list but all in CAPS\n")
 upperNames = []
 for name in rockosML:
@@ -46,3 +46,15 @@ for nextDirection in directions:
     instructions = instructions + nextDirection + ", then \n"
 
 print(instructions + "\nYou Have Arrived :)\n")
+
+
+# Bacteria Loop using the range method
+print("\nWelcome to The Bacteria Zone\n")
+
+bacteria = "&"
+
+for generation in range(0, 20):
+    bacteria = bacteria + bacteria
+
+print(bacteria)
+print("\nThank You Come Again\n")
