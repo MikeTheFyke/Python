@@ -48,12 +48,13 @@ for nextDirection in directions:
 print(instructions + "\nYou Have Arrived :)\n")
 
 
-# Bacteria Loop using the range method
+# Bacteria Loop using the range method, 10 iterations in my example
+# using time.sleep method to create a pause between iterations.
 print("\nWelcome to The Bacteria Zone\n")
 
 bacteria = "&"
 
-for generation in range(0, 20):
+for generation in range(0, 10):
     bacteria = bacteria + bacteria
 
 print(bacteria)
