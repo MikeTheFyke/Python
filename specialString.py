@@ -8,12 +8,16 @@ length = str(len(userString))
 print("\nYour Word or sentence is " + length + " characters long.")
 
 # Vowel removal/replacment
-unVoweled = str(userString)
 vowels = 'aeiou'
+unVoweled = str(userString)
 
 for vowel in vowels:
     unVoweled = unVoweled.replace(vowel, '')
 
 print ("\nHere is your submission without vowels : " + unVoweled + ".")
-print ("\n")
-#
+
+
+# Vowel Counter
+
+vowelCtr =  len(userString) - len(unVoweled)
+print ("\nYour submission had " + str(vowelCtr) + " vowels within it.\n")
