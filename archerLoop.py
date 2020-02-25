@@ -24,12 +24,14 @@ roles = [
 
 print ("\n--- Welcome To The Figgis Agency ---" + "\n---    List Of Active Agents     ---\n")
 
+# Created Counter Variable to access the above lists
 ctr = 0
 
 for name in agents:
     print (ctr), (name)
     ctr = ctr + 1
 
+# input method instead of raw_input for the integer to be used for index
 extensionNumber = input("\n Please Enter An Agents extension Number   : ")
 print("---------------------------------------\n")
 print(agents[extensionNumber] + " -- " +roles[extensionNumber])
