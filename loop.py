@@ -52,10 +52,15 @@ print(instructions + "\nYou Have Arrived :)\n")
 # using time.sleep method to create a pause between iterations.
 print("\nWelcome to The Bacteria Zone\n")
 
+# imported time method
+import time
+
 bacteria = "&"
+generations = 10
 
-for generation in range(0, 10):
-    bacteria = bacteria + bacteria
+for generation in range(0, generations):
+    bacteria = bacteria * 2
+    print(bacteria)
+    time.sleep(0.5)
 
-print(bacteria)
 print("\nThank You Come Again\n")
