@@ -17,7 +17,7 @@ for vowel in vowels:
 print ("\nHere is your submission without vowels : " + unVoweled + ".")
 
 
-# Vowel Counter
+# Character Counter
 
 vowelCtr =  len(userString) - len(unVoweled)
 print ("\nYour submission had " + str(vowelCtr) + " vowels within it.\n")
