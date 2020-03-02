@@ -16,7 +16,18 @@ speechBoolean = bool(shortSpeech)
 longSpeech = ''
 longSpeechBoolean = bool(longSpeech)
 
-print ( "TheBoys Boolean     : " + str(theBoysBoolean) + "\n")
-print ( "OtherBoys Boolean   : " + str(otherBoysBoolean) + "\n")
-print ( "ShortSpeech Boolean : " + str(speechBoolean) + "\n")
-print ( "LongSpeech Boolean  : " + str(longSpeechBoolean) + "\n")
+# This will equate to true
+numberOfHijinx = 32456
+numberHijinxBoolean = bool(numberOfHijinx)
+
+
+# This will equate to false
+numberOfYimYam = 0
+yimYamBoolean = bool(numberOfYimYam)
+
+print ( "TheBoys Boolean       : " + str(theBoysBoolean) + "\n")
+print ( "OtherBoys Boolean     : " + str(otherBoysBoolean) + "\n")
+print ( "ShortSpeech Boolean   : " + str(speechBoolean) + "\n")
+print ( "LongSpeech Boolean    : " + str(longSpeechBoolean) + "\n")
+print ( "HijinxNumber Boolean  : " + str(numberHijinxBoolean) + "\n")
+print ( "YimYamNumber Boolean  : " + str(yimYamBoolean) + "\n")
