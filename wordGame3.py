@@ -13,7 +13,7 @@ I'm sure to rise to the top.
 
 Dont't worry about me, and tell dad to take
 good care of my PERSONAL_ITEM. 
-I'll be sure to call every Holiday.
+I'll be sure to call every HOLIDAY.
 
 Regards,
 
