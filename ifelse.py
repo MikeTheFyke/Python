@@ -14,7 +14,10 @@ for listItem in beers:
 
     print("Available Brands : " + str(listitemBrand) + " Available Drafts : " + str(listitemDraft))
 
-userBeer = raw_input("\nWhat brand of beer would you like : ")
+
+print("\n__________________________________________________________\n")
+
+userBeer = raw_input("What brand of beer would you like : ")
 userInput = str(userBeer)
 
 userDraft = raw_input("What draft of beer would you like : ")
@@ -27,7 +30,7 @@ for beer in beers:
     brandOfBeer = beer[0]
     draft = beer[1] 
     if brandOfBeer is userInput and draft is userDraftInput:
-        print("Yes that beer is available")
+        rightBeerBoolean = True
         cart.append(beer)
         break               # break keyword used for ending the for loop once we can confirm a users selection.
     else:
@@ -36,4 +39,3 @@ for beer in beers:
 if len(cart) is 0:
         cart.append("Empty")
         print("\n Sorry We do not have that beer. I looked through " + str(wrongBeerLookedAt) + " kinds of beer looking for it.\n" )
-
