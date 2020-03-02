@@ -42,6 +42,7 @@ extraHeightBoolean = bool(roomHeight > myHeight)
 giraffeHeight = 21
 giraffeHeightBoolean = bool(roomHeight > giraffeHeight)
 
+# This will equate to false
 boysSearchBoolean = bool('John' in theBoys)
 
 print ( "TheBoys Boolean        : " + str(theBoysBoolean) + "\n")
