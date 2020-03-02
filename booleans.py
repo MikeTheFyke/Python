@@ -60,11 +60,13 @@ idealWeatherBoolean = bool(outsideTemperature > 25 and sunny)
 # This Will equate to False the weather using the 'and' operator
 notIdealWeatherBoolean = bool(outsideTemperature < 25 and cloudy)
 
-# using the 'or' operator
+# This will equate to True using the 'or' operator
 hasCoffee = True
-hasBeer = True
+hasBeer = False
 drinkBoolean = bool(hasCoffee or hasBeer)
 
+# This will equate to False using the 'and' operator
+bothDrinkBoolean = bool(hasCoffee and hasBeer)
 
 print ( "TheBoys Boolean               : " + str(theBoysBoolean) + "\n")
 print ( "OtherBoys Boolean             : " + str(otherBoysBoolean) + "\n")
@@ -82,3 +84,4 @@ print ( "TheBoys IS BestBoy Boolean    : " + str(bestBoyBoolean) + "\n")
 print ( "Ideal AND Weather Boolean     : " + str(idealWeatherBoolean) + "\n")
 print ( "Not Ideal AND Weather Boolean : " + str(notIdealWeatherBoolean) + "\n")
 print ( "Beer OR Coffee Boolean        : " + str(drinkBoolean) + "\n")
+print ( "Beer AND Coffee Boolean       : " + str(bothDrinkBoolean) + "\n")
