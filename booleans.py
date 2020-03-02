@@ -45,23 +45,34 @@ extraHeightBoolean = bool(roomHeight > myHeight)
 giraffeHeight = 21
 giraffeHeightBoolean = bool(roomHeight > giraffeHeight)
 
-# This will equate to false using the 'in' keyword
+# This will equate to false using the 'in' operator
 boysSearchBoolean = bool('John' in theBoys)
 
-# This will equate to false using the 'is' keyword
+# This will equate to false using the 'is' operator
 bestBoy = theBoys[0]
 bestBoyBoolean = bool('john' is bestBoy)
 
-print ( "TheBoys Boolean         : " + str(theBoysBoolean) + "\n")
-print ( "OtherBoys Boolean       : " + str(otherBoysBoolean) + "\n")
-print ( "ShortSpeech Boolean     : " + str(speechBoolean) + "\n")
-print ( "LongSpeech Boolean      : " + str(longSpeechBoolean) + "\n")
-print ( "HijinxNumber Boolean    : " + str(numberHijinxBoolean) + "\n")
-print ( "YimYamNumber Boolean    : " + str(yimYamBoolean) + "\n")
-print ( "-Zip Number Boolean     : " + str(zipBoolean) + "\n")
-print ( "Truther Boolean         : " + str(trutherBoolean) + "\n")
-print ( "Denier Boolean          : " + str(denierBoolean) + "\n")
-print ( "Extra Height Boolean    : " + str(extraHeightBoolean) + "\n")
-print ( "Giraffe Height Boolean  : " + str(giraffeHeightBoolean) + "\n")
-print ( "TheBoys Search Boolean  : " + str(boysSearchBoolean) + "\n")
-print ( "TheBoys BestBoy Boolean : " + str(bestBoyBoolean) + "\n")
+# This Will equate to True the weather using the 'and' operator
+outsideTemperature = 28
+sunny = True
+cloudy = False
+idealWeatherBoolean = bool(outsideTemperature > 25 and sunny)
+# This Will equate to False the weather using the 'and' operator
+notIdealWeatherBoolean = bool(outsideTemperature < 25 and cloudy)
+
+
+print ( "TheBoys Boolean           : " + str(theBoysBoolean) + "\n")
+print ( "OtherBoys Boolean         : " + str(otherBoysBoolean) + "\n")
+print ( "ShortSpeech Boolean       : " + str(speechBoolean) + "\n")
+print ( "LongSpeech Boolean        : " + str(longSpeechBoolean) + "\n")
+print ( "HijinxNumber Boolean      : " + str(numberHijinxBoolean) + "\n")
+print ( "YimYamNumber Boolean      : " + str(yimYamBoolean) + "\n")
+print ( "-Zip Number Boolean       : " + str(zipBoolean) + "\n")
+print ( "Truther Boolean           : " + str(trutherBoolean) + "\n")
+print ( "Denier Boolean            : " + str(denierBoolean) + "\n")
+print ( "Extra Height Boolean      : " + str(extraHeightBoolean) + "\n")
+print ( "Giraffe Height Boolean    : " + str(giraffeHeightBoolean) + "\n")
+print ( "TheBoys Search Boolean    : " + str(boysSearchBoolean) + "\n")
+print ( "TheBoys BestBoy Boolean   : " + str(bestBoyBoolean) + "\n")
+print ( "Ideal Weather Boolean     : " + str(idealWeatherBoolean) + "\n")
+print ( "Not Ideal Weather Boolean : " + str(notIdealWeatherBoolean) + "\n")
