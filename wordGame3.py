@@ -41,9 +41,6 @@ proseString2 = proseString2.replace("ADJECTIVE", adjectiveInput)
 personalItem = raw_input(" Please Enter A Personal Item    : ")
 proseString2 = proseString2.replace("PERSONAL_ITEM", personalItem)
 
-personalItem = raw_input(" Please Enter A Personal Item    : ")
-proseString2 = proseString2.replace("PERSONAL_ITEM", personalItem)
-
 holiday = raw_input(" Please Enter Visting Holiday     : ")
 proseString2 = proseString2.replace("HOLIDAY", holiday)
 
