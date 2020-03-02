@@ -21,6 +21,17 @@ NAME
 
 """
 
+replacements = [
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""]
+]
+
 proseString2 = proseString
 
 ocInput = raw_input(" Please Enter An Occupation   : ")
