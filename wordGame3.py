@@ -32,43 +32,10 @@ replacements = [
     ["Your name","NAME"]
 ]
 
-proseString2 = proseString
-ctr = 0
-ctrHOLDER = 1
+for prompt, placeholder in replacements:
+    prompt = raw_input("Please Provide " + placeholder + " : ")
+    userInput = prompt
+    proseString = proseString.replace(placeholder,userInput)
 
-for replacement in replacements:
-    prompt = " Please Provide " + str(replacements[ctr])
-    ocInput = raw_input(prompt)
-    placeholder  = replacements[ctr,ctrHolder]
-    proseString2 = proseString2.replace("placeholder",ocInput)
-    ctr = ctr + 1
-    ctrHOLDER = ctr + 1
 
-print("\n")
-
-# proseString2 = proseString
-
-# proseString2 = proseString2.replace("OCCUPATION", ocInput)
-
-# countryInput = raw_input(" Please Enter A Country   : ")
-# proseString2 = proseString2.replace("COUNTRY", countryInput)
-
-# pluralNounInput = raw_input(" Please Enter A Plural Noun   : ")
-# proseString2 = proseString2.replace("PLURAL_NOUN", pluralNounInput)
-
-# verbInput = raw_input(" Please Enter An Action   : ")
-# proseString2 = proseString2.replace("VERB", verbInput)
-
-# adjectiveInput = raw_input(" Please Enter An Adjective   : ")
-# proseString2 = proseString2.replace("ADJECTIVE", adjectiveInput)
-
-# personalItem = raw_input(" Please Enter A Personal Item    : ")
-# proseString2 = proseString2.replace("PERSONAL_ITEM", personalItem)
-
-# holiday = raw_input(" Please Enter Visting Holiday     : ")
-# proseString2 = proseString2.replace("HOLIDAY", holiday)
-
-# userName = raw_input(" Please Enter Your Name          : ")
-# proseString2 = proseString2.replace("NAME", userName)
-
-print(proseString2)
+print(proseString)
