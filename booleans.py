@@ -38,12 +38,17 @@ roomHeight = 10
 myHeight = 6
 extraHeightBoolean = bool(roomHeight > myHeight)
 
-print ( "TheBoys Boolean       : " + str(theBoysBoolean) + "\n")
-print ( "OtherBoys Boolean     : " + str(otherBoysBoolean) + "\n")
-print ( "ShortSpeech Boolean   : " + str(speechBoolean) + "\n")
-print ( "LongSpeech Boolean    : " + str(longSpeechBoolean) + "\n")
-print ( "HijinxNumber Boolean  : " + str(numberHijinxBoolean) + "\n")
-print ( "YimYamNumber Boolean  : " + str(yimYamBoolean) + "\n")
-print ( "Truther Boolean       : " + str(trutherBoolean) + "\n")
-print ( "Denier Boolean        : " + str(denierBoolean) + "\n")
-print ( "Extra Height Boolean  : " + str(extraHeightBoolean) + "\n")
+# This will equate to false
+giraffeHeight = 21
+giraffeHeightBoolean = bool(roomHeight > giraffeHeight)
+
+print ( "TheBoys Boolean        : " + str(theBoysBoolean) + "\n")
+print ( "OtherBoys Boolean      : " + str(otherBoysBoolean) + "\n")
+print ( "ShortSpeech Boolean    : " + str(speechBoolean) + "\n")
+print ( "LongSpeech Boolean     : " + str(longSpeechBoolean) + "\n")
+print ( "HijinxNumber Boolean   : " + str(numberHijinxBoolean) + "\n")
+print ( "YimYamNumber Boolean   : " + str(yimYamBoolean) + "\n")
+print ( "Truther Boolean        : " + str(trutherBoolean) + "\n")
+print ( "Denier Boolean         : " + str(denierBoolean) + "\n")
+print ( "Extra Height Boolean   : " + str(extraHeightBoolean) + "\n")
+print ( "Giraffe Height Boolean : " + str(giraffeHeightBoolean) + "\n")
