@@ -25,10 +25,11 @@ numberHijinxBoolean = bool(numberOfHijinx)
 numberOfYimYam = 0
 yimYamBoolean = bool(numberOfYimYam)
 
-#
+# This will equate to true
 truther = True
 trutherBoolean = bool(truther)
-#
+
+# This will equate to false
 denier = False
 denierBoolean = bool(denier)
 
