@@ -12,6 +12,11 @@ shortSpeech = ("\nYou knew your pal had come into money when he started throwing
 print(shortSpeech)
 speechBoolean = bool(shortSpeech)
 
-print ( "TheBoys Boolean   : " + str(theBoysBoolean) + "\n")
-print ( "OtherBoys Boolean : " + str(otherBoysBoolean) + "\n")
+# This will equate to false
+longSpeech = ''
+longSpeechBoolean = bool(longSpeech)
+
+print ( "TheBoys Boolean     : " + str(theBoysBoolean) + "\n")
+print ( "OtherBoys Boolean   : " + str(otherBoysBoolean) + "\n")
 print ( "ShortSpeech Boolean : " + str(speechBoolean) + "\n")
+print ( "LongSpeech Boolean  : " + str(longSpeechBoolean) + "\n")
