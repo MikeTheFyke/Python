@@ -33,6 +33,11 @@ trutherBoolean = bool(truther)
 denier = False
 denierBoolean = bool(denier)
 
+# This will equate to true
+roomHeight = 10
+myHeight = 6
+extraHeightBoolean = bool(roomHeight > myHeight)
+
 print ( "TheBoys Boolean       : " + str(theBoysBoolean) + "\n")
 print ( "OtherBoys Boolean     : " + str(otherBoysBoolean) + "\n")
 print ( "ShortSpeech Boolean   : " + str(speechBoolean) + "\n")
@@ -41,3 +46,4 @@ print ( "HijinxNumber Boolean  : " + str(numberHijinxBoolean) + "\n")
 print ( "YimYamNumber Boolean  : " + str(yimYamBoolean) + "\n")
 print ( "Truther Boolean       : " + str(trutherBoolean) + "\n")
 print ( "Denier Boolean        : " + str(denierBoolean) + "\n")
+print ( "Extra Height Boolean  : " + str(extraHeightBoolean) + "\n")
