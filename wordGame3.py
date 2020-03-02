@@ -22,14 +22,14 @@ NAME
 """
 
 replacements = [
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""]
+    ["An occupation","OCCUPATION"],
+    ["A country","COUNTRY"],
+    ["A plural noun","PLURAL_NOUN"],
+    ["A verb","VERB"],
+    ["An adjective","ADJECTIVE"],
+    ["A personal item","PERSONAL_ITEM"],
+    ["A holiday","HOLIDAY"],
+    ["Your name","NAME"]
 ]
 
 proseString2 = proseString
