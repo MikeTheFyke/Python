@@ -6,3 +6,5 @@ bool(theBoys)
 theOtherBoys = []
 bool(theOtherBoys)
 
+shortSpeech = ("\nYou knew your pal had come into money when he started throwing out \nperfectly good pistachios like he was above cracking em open with a\nbox cutter like the rest of us\n")
+print(shortSpeech)
