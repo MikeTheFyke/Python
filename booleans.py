@@ -25,9 +25,18 @@ numberHijinxBoolean = bool(numberOfHijinx)
 numberOfYimYam = 0
 yimYamBoolean = bool(numberOfYimYam)
 
+#
+truther = True
+trutherBoolean = bool(truther)
+#
+denier = False
+denierBoolean = bool(denier)
+
 print ( "TheBoys Boolean       : " + str(theBoysBoolean) + "\n")
 print ( "OtherBoys Boolean     : " + str(otherBoysBoolean) + "\n")
 print ( "ShortSpeech Boolean   : " + str(speechBoolean) + "\n")
 print ( "LongSpeech Boolean    : " + str(longSpeechBoolean) + "\n")
 print ( "HijinxNumber Boolean  : " + str(numberHijinxBoolean) + "\n")
 print ( "YimYamNumber Boolean  : " + str(yimYamBoolean) + "\n")
+print ( "Truther Boolean       : " + str(trutherBoolean) + "\n")
+print ( "Denier Boolean        : " + str(denierBoolean) + "\n")
