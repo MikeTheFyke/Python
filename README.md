@@ -11,4 +11,5 @@ This is my first Python Repo.
 9.  loop.py
 10. archerLoop.py
 11. specialString.py
-12. wordGame3.py
+12. wordGame3.py - DRY
+13. booleans.py
