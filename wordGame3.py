@@ -34,12 +34,15 @@ replacements = [
 
 proseString2 = proseString
 ctr = 0
+ctrHOLDER = 1
 
 for replacement in replacements:
     prompt = " Please Provide " + str(replacements[ctr])
     ocInput = raw_input(prompt)
-    proseString2 = proseString2.replace("OCCUPATION",ocInput)
+    placeholder  = replacements[ctr,ctrHolder]
+    proseString2 = proseString2.replace("placeholder",ocInput)
     ctr = ctr + 1
+    ctrHOLDER = ctr + 1
 
 print("\n")
 
