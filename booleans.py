@@ -42,6 +42,8 @@ extraHeightBoolean = bool(roomHeight > myHeight)
 giraffeHeight = 21
 giraffeHeightBoolean = bool(roomHeight > giraffeHeight)
 
+boysSearchBoolean = bool('John' in theBoys)
+
 print ( "TheBoys Boolean        : " + str(theBoysBoolean) + "\n")
 print ( "OtherBoys Boolean      : " + str(otherBoysBoolean) + "\n")
 print ( "ShortSpeech Boolean    : " + str(speechBoolean) + "\n")
@@ -52,3 +54,4 @@ print ( "Truther Boolean        : " + str(trutherBoolean) + "\n")
 print ( "Denier Boolean         : " + str(denierBoolean) + "\n")
 print ( "Extra Height Boolean   : " + str(extraHeightBoolean) + "\n")
 print ( "Giraffe Height Boolean : " + str(giraffeHeightBoolean) + "\n")
+print ( "TheBoys Search Boolean : " + str(boysSearchBoolean) + "\n")
