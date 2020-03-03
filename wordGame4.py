@@ -1,3 +1,4 @@
+# A story is created
 superBasic = [
     "Title",
     "Prose String With a REPLACEMENT, and also a SECOND_REPLACEMENT to illustrate the point",
@@ -7,6 +8,7 @@ superBasic = [
     ]
 ]
 
+# The Story is then stored in the 'stories' list
 stories = [
     superBasic
 ]
