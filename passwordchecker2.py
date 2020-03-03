@@ -5,6 +5,6 @@ passwordVerInput = input("\nPlease re-enter you Password : ")
 
 
 if passwordInput == passwordVerInput:
-    print ("\n Congratualtions account created " + usernameInput + " :) \n" )
+    print ("\n Congratualtions" + usernameInput + "account created :) \n" )
 else:
-    print ("\n Sorry passwords did not match :( )\n")
+    print ("\n Sorry passwords did not match :( \n")
