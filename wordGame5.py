@@ -27,7 +27,7 @@ letterHome = [
 
     # Replacements
     [
-        ["An occupation     : ","OCCUPATION"],
+        ["\nAn occupation     : ","OCCUPATION"],
         ["A country         : ","COUNTRY"],
         ["A plural noun     : ","PLURAL_NOUN"],
         ["A verb            : ","VERB     : "],
@@ -53,7 +53,7 @@ sale = [
 
     # Replacements 2
     [
-        ["A number         : ","NUMBER"],
+        ["\nA number         : ","NUMBER"],
         ["A plural noun    : ","PLURAL_NOUN"],
         ["A noun","NOUN    : "],
         ["A type of metal  : ","METAL"]
@@ -76,7 +76,7 @@ showAndTell = [
 
     # Replacements
     [
-        ["An animal       : ","ANIMAL"],
+        ["\nAn animal       : ","ANIMAL"],
         ["A verb          : ","VERB1"],
         ["An adverb       : ","ADVERB"],
         ["A number        : ","NUMBER"],
@@ -92,7 +92,9 @@ stories = [
     showAndTell
 ]
 
-selection = int(input("\nPlease Choose a story number : "))
+print("\n------ Welcome To The Digital Bookstore ------\n                Title          #\n----------------------------------------------\n                letterHome    1\n                Sale          2\n                Show and Tell 3\n----------------------------------------------\n")
+
+selection = int(input("\n        Please Choose a story number : "))
 story = stories[selection - 1]
 proseString = story[1]
 replacements = story[2]
