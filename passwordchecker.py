@@ -1,8 +1,8 @@
 username = "Joe"
 password = 1234
 
-usernameInput = raw_input("\nPlease enter you Username : ")
-passwordInput = input("\nPlease enter you Password : ")
+usernameInput = raw_input("\nPlease enter your Username : ")
+passwordInput = input("\nPlease enter your Password : ")
 
 if password == passwordInput and username == usernameInput:
     print ("\n That is the correct password :) \n")
