@@ -44,3 +44,8 @@ if answer05Input != answer05 :
     print ("-----------------Question 5 You were wrong :(-----------------")
 
 print("\n--------------------------------------------------------------\n \n----------------- Your score was " + str(ctr) +"/5 -----------------\n")
+
+if ctr >= 3:
+    print("----------------- Very close to a perfect score try again -----------------")
+else:
+    print("------------------- Very May Need To Practice Your Math   -------------------")
