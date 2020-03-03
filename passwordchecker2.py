@@ -7,5 +7,9 @@ passwordLength = len(str(passwordInput))
 
 if passwordInput == passwordVerInput and passwordLength >= 8:
     print ("\n Congratualtions" + usernameInput + "account created :) \n")
-else:
+
+if passwordInput != passwordVerInput:
     print ("\n Sorry passwords did not match :( \n")
+
+else:
+    print ("\n Sorry passwords were not long enough :( \n")
