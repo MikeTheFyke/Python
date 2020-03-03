@@ -92,3 +92,8 @@ stories = [
     sale,
     showAndTell
 ]
+
+for prompt, placeholder in replacements:
+    userInput = input(prompt)
+    proseString = proseString.replace(placeholder, userInput)
+print(proseString)
