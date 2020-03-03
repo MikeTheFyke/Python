@@ -101,5 +101,5 @@ for prompt, placeholder in replacements:
     userInput = raw_input(prompt)
     proseString = proseString.replace(placeholder,userInput)
 
-
+print("\nThe story number you have choosen is numnber " + str(userInput))
 print("\nThe Title of this story is : " + str(story[0]) +  "\n" + proseString)
