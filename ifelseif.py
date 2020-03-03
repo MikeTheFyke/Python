@@ -1,4 +1,10 @@
 age = 0
 
-userAge = raw_input("How old are you? (Old enough to ride this rollercoaster) : ")
+print ("Can you ride the rollercoaster?")
+if age > 18:
+    print("Definetly!")
+elif age > 12:
+    print("Maybe,How tall are you?")
+else:
+    print("Sorry, kid. Come back when you're older")
 
