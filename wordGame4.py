@@ -61,7 +61,34 @@ sale = [
 
 ]
 
+showAndTell = [
+    
+    # Title
+    "Show and Tell",
+
+    #
+    "Show and Tell",
+    """
+    Have you seen my pet ANIMAL ? It's the best-- No pet can VERB1 as
+    ADVERB as it can. It's NUMBER years old, and its name is NAME.
+    You can VERB2 it if you want, but be careful, because it might
+    VERB3 .
+    """,
+
+    # Replacements
+    [
+        ["An animal","ANIMAL"],
+        ["A verb","VERB1"],
+        ["An adverb","ADVERB"],
+        ["A number","NUMBER"],
+        ["A name","NAME"],
+        ["A verb again","VERB2"],
+        ["Another verb","VERB3"]
+    ]
+]
+
 stories = [
     letterHome,
-    sale
+    sale,
+    showAndTell
 ]
