@@ -1,6 +1,6 @@
 letterHome = [
     # Title
-    "A Letter Home",
+    """A Letter Home""",
     # Text String
     """
     Hi mom,
@@ -52,7 +52,7 @@ sale = [
     """,
 
     # Replacements 2
-    [
+    replacements = [
         ["A number","NUMBER"],
         ["A plural noun","PLURAL_NOUN"],
         ["A noun","NOUN"],
@@ -76,7 +76,7 @@ showAndTell = [
     """,
 
     # Replacements
-    [
+    replacements = [
         ["An animal","ANIMAL"],
         ["A verb","VERB1"],
         ["An adverb","ADVERB"],
@@ -94,6 +94,9 @@ stories = [
 ]
 
 for prompt, placeholder in replacements:
-    userInput = input(prompt)
-    proseString = proseString.replace(placeholder, userInput)
+    prompt = raw_input("Please Provide " + placeholder + " : ")
+    userInput = prompt
+    proseString = proseString.replace(placeholder,userInput)
+
+
 print(proseString)
