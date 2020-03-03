@@ -92,7 +92,15 @@ stories = [
     showAndTell
 ]
 
-print("\n------ Welcome To The Digital Bookstore ------\n                Title          #\n----------------------------------------------\n                letterHome    1\n                Sale          2\n                Show and Tell 3\n----------------------------------------------\n")
+print("\n------ Welcome To The Digital Bookstore ------\n")
+print("----------------------------------------------\n")
+print("            Number    Title")
+
+for index, story in enumerate(stories):
+    title = story[0]
+    print("               " + str(index) + " - " + title)
+
+print("----------------------------------------------\n")
 
 selection = int(input("\n        Please Choose a story number : "))
 story = stories[selection - 1]
