@@ -1,6 +1,6 @@
 letterHome = [
     # Title
-    """A Letter Home""",
+    "A Letter Home",
     # Text String
     """
     Hi mom,
@@ -26,7 +26,7 @@ letterHome = [
     """,
 
     # Replacements
-    replacements = [
+    [
         ["An occupation","OCCUPATION"],
         ["A country","COUNTRY"],
         ["A plural noun","PLURAL_NOUN"],
@@ -52,7 +52,7 @@ sale = [
     """,
 
     # Replacements 2
-    replacements = [
+    [
         ["A number","NUMBER"],
         ["A plural noun","PLURAL_NOUN"],
         ["A noun","NOUN"],
@@ -67,7 +67,6 @@ showAndTell = [
     "Show and Tell",
 
     #
-    "Show and Tell",
     """
     Have you seen my pet ANIMAL ? It's the best-- No pet can VERB1 as
     ADVERB as it can. It's NUMBER years old, and its name is NAME.
@@ -76,7 +75,7 @@ showAndTell = [
     """,
 
     # Replacements
-    replacements = [
+    [
         ["An animal","ANIMAL"],
         ["A verb","VERB1"],
         ["An adverb","ADVERB"],
@@ -93,9 +92,13 @@ stories = [
     showAndTell
 ]
 
+selection = int(input("Choose a story : "))
+story = stories[selection]
+proseString = story[1]
+replacements = story[2]
+
 for prompt, placeholder in replacements:
-    prompt = raw_input("Please Provide " + placeholder + " : ")
-    userInput = prompt
+    userInput = raw_input(prompt)
     proseString = proseString.replace(placeholder,userInput)
 
 
