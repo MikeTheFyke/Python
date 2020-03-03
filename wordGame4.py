@@ -93,7 +93,7 @@ stories = [
 ]
 
 selection = int(input("Choose a story : "))
-story = stories[selection]
+story = stories[selection - 1]
 proseString = story[1]
 replacements = story[2]
 
