@@ -54,3 +54,26 @@ LetterHome = [
         ["Your name","NAME"]
     ]
 ]
+
+sale = [
+
+    # Title
+    "A Great Sale",
+
+    # Text String 2
+    """
+    SALE SALE SALE SALE
+    Today only : Buy NUMBER PLURAL_NOUN and get a free NOUN!
+
+    Sign up for our exclusive METAL card and receive 50% off your first purchase!
+    """,
+
+    # Replacements 2
+    [
+        ["A number","NUMBER"],
+        ["A plural noun","PLURAL_NOUN"],
+        ["A noun","NOUN"],
+        ["A type of metal","METAL"]
+    ]
+
+]
