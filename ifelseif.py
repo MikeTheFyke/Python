@@ -1,4 +1,4 @@
-age = 0
+age = 16
 
 print ("Can you ride the rollercoaster?")
 if age > 18:
