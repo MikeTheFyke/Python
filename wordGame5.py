@@ -27,14 +27,14 @@ letterHome = [
 
     # Replacements
     [
-        ["An occupation","OCCUPATION"],
-        ["A country","COUNTRY"],
-        ["A plural noun","PLURAL_NOUN"],
-        ["A verb","VERB"],
-        ["An adjective","ADJECTIVE"],
-        ["A personal item","PERSONAL_ITEM"],
-        ["A holiday","HOLIDAY"],
-        ["Your name","NAME"]
+        ["An occupation     : ","OCCUPATION"],
+        ["A country         : ","COUNTRY"],
+        ["A plural noun     : ","PLURAL_NOUN"],
+        ["A verb            : ","VERB     : "],
+        ["An adjective      : ","ADJECTIVE"],
+        ["A personal item   : ","PERSONAL_ITEM"],
+        ["A holiday         : ","HOLIDAY"],
+        ["Your name         : ","NAME"]
     ]
 ]
 
@@ -53,10 +53,10 @@ sale = [
 
     # Replacements 2
     [
-        ["A number","NUMBER"],
-        ["A plural noun","PLURAL_NOUN"],
-        ["A noun","NOUN"],
-        ["A type of metal","METAL"]
+        ["A number         : ","NUMBER"],
+        ["A plural noun    : ","PLURAL_NOUN"],
+        ["A noun","NOUN    : "],
+        ["A type of metal  : ","METAL"]
     ]
 
 ]
@@ -76,13 +76,13 @@ showAndTell = [
 
     # Replacements
     [
-        ["An animal","ANIMAL"],
-        ["A verb","VERB1"],
-        ["An adverb","ADVERB"],
-        ["A number","NUMBER"],
-        ["A name","NAME"],
-        ["A verb again","VERB2"],
-        ["Another verb","VERB3"]
+        ["An animal       : ","ANIMAL"],
+        ["A verb          : ","VERB1"],
+        ["An adverb       : ","ADVERB"],
+        ["A number        : ","NUMBER"],
+        ["A name          : ","NAME"],
+        ["A verb again    : ","VERB2"],
+        ["Another verb    : ","VERB3"]
     ]
 ]
 
@@ -92,7 +92,7 @@ stories = [
     showAndTell
 ]
 
-selection = int(input("Choose a story : "))
+selection = int(input("\nPlease Choose a story number : "))
 story = stories[selection - 1]
 proseString = story[1]
 replacements = story[2]
@@ -102,4 +102,4 @@ for prompt, placeholder in replacements:
     proseString = proseString.replace(placeholder,userInput)
 
 
-print(proseString)
+print("\nThe Title of this story is : " + str(story[0]) +  "\n" + proseString)
